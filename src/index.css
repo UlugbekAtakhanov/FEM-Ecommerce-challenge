@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .cbutton {
+        @apply flex items-center gap-2 bg-cred p-4 rounded-md text-white ring-1 ring-cred ring-offset-1 text-xs hover:bg-black hover:ring-black
+    }
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin-inline: auto;
+}
